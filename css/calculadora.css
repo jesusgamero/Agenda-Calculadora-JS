@@ -1,0 +1,81 @@
+#calculadora{
+   width: 300px;
+   margin: 0px auto;
+   border-collapse:collapse;
+   border-radius: 6px;
+   -webkit-box-shadow: 0px 0px 26px -1px rgba(140,138,140,1);
+   -moz-box-shadow: 0px 0px 26px -1px rgba(140,138,140,1);
+    box-shadow: 0px 0px 26px -1px rgba(140,138,140,1);
+}
+
+#superior{  
+   text-align: right;      
+   padding: 9px 19px;
+   background-color: #080C0F;
+   color: #eae5e5;
+   overflow: hidden;
+   cursor: default;
+   font-weight: 500;
+   font-size: 30px;  
+   border-radius: 7px 7px 0 0;
+}
+#inferior{  
+   text-align: right;      
+   padding: 1px 15px;
+   background-color: #080C0F;
+   color: #eae5e5;
+   overflow: hidden;
+   cursor: default;
+   height: 80px;
+   font-weight: 500;
+   font-size: 62px;   
+}
+td{
+   text-align: center;
+   height: 55px;
+   width: 55px;
+   vertical-align: middle;
+   cursor: pointer;
+   font-size: 25px;
+   font-weight: 400;
+   font-family: sans-serif;
+   background-color: #F4F6F7; 
+   color: #848484;
+   transition: background-color 0.8s ease; 
+}
+td:hover{
+   background-color:#E0E0E0;
+}
+#operacion{
+   text-align: center;
+   height: 55px;
+   width: 55px;
+   vertical-align: middle;
+   cursor: pointer;
+   font-size: 25px;
+   font-weight: 400;
+   font-family: sans-serif;
+   background-color: #E5E7E9; 
+   color: #848484;
+   transition: background-color 0.8s ease; 
+}
+#operacion:hover{
+   background-color:#CACFD2;
+}
+#resultado{
+   text-align: center;
+   height: 55px;
+   width: 55px;
+   vertical-align: middle;
+   cursor: pointer;
+   font-size: 25px;
+   font-weight: 400;
+   font-family: sans-serif;
+   background-color: #FAAC58; 
+   color: #FDFEFE;
+   transition: background-color 0.8s ease; 
+}
+#resultado:hover{
+   background-color:#FF8000;
+}
+

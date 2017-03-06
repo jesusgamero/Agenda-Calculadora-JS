@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <script type="text/javascript" src="./js/calculadora.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/calculadora.css">
+</head>
+
+<body>
+  <br><br>
+  <table id="Calculadora">
+    <tr>
+      <td colspan="4" id="superior"></td>
+    </tr>
+    <tr>
+      <td colspan="4" id="inferior">0</td>
+    </tr>
+    <tr>
+      <td id="operacion" onclick="porcentaje()">%</td>
+      <td id="operacion" onclick="raiz()">&#8730;</td>
+      <td id="operacion" onclick="cuadrado()">x&#178;</td>
+      <td id="operacion" onclick="operar('/')">&divide;</td>
+    </tr>
+    <tr>
+      <td onclick="ce()">CE</td>
+      <td onclick="borrar()">C</td>
+      <td onclick="retro()">&#8678;</td>
+      <td id="operacion" onclick="operar('*')">x</td>
+    </tr>
+    <tr>
+      <td onclick="teclear(7)">7</td>
+      <td onclick="teclear(8)">8</td>
+      <td onclick="teclear(9)">9</td>
+      <td id="operacion" onclick="operar('-')">-</td>
+    </tr>
+    <tr>
+      <td onclick="teclear(4)">4</td>
+      <td onclick="teclear(5)">5</td>
+      <td onclick="teclear(6)">6</td>
+      <td id="operacion" onclick="operar('+')">+</td>
+    </tr>
+    <tr>
+      <td onclick="teclear(1)">1</td>
+      <td onclick="teclear(2)">2</td>
+      <td onclick="teclear(3)">3</td>
+      <td rowspan="2" id="resultado" onclick="resultado()">=</td>
+    </tr>
+    <tr>
+      <td onclick="signo()">+&frasl;-</td>
+      <td onclick="teclear(0)">0</td>
+      <td onclick="fcoma()">.</td>
+    </tr>
+  </table>
+</body>
+
+</html>
